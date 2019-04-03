@@ -4,6 +4,7 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-size: 52px;
     color: #013248;
     border-style: solid;
@@ -14,6 +15,32 @@ h1 {
     position: relative;
     left: 20px;
     padding: 10px;
+}
+
+h2 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #013248;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #013248;
+    text-align: center;
+}
+
+p {
+    color: #013248;
+}
+
+#random-number {
+    text-align: center;
+    font-size: 32px;
+}
+
+#total-score {
+    text-align: center;
+    font-size: 32px;
 }
 
 .row-2 {
@@ -42,5 +69,12 @@ h1 {
     border-width: 5px;
     border-color: #013248;
     background-color: white;
+    padding-left: 60px;
+
+}
+
+button {
+    border: none;
+    background: transparent;
 
 }

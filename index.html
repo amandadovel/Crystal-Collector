@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
@@ -40,28 +41,36 @@
             <div class="col-md-9 col-1">
                 <!-- row 2 column 2 is crystal box with goal number and total score-->
                 <h3>Number you're trying to reach:</h3>
+                <br>
                 <p id="random-number"></p>
                 <br>
                 <h3>Total Score:</h3>
+                <br>
                 <p id="total-score"></p>
             </div>
 
             <div class="col-md-3 col-2">
                 <!-- crow 2 column 2 is wins/losses box-->
                 <p id="alert-message"></p>
-                <p>Wins: <span id="wins-text"></span></p>
-                <br>
-                <p>Losses: <span id="losses-text"></span></p>
-                <br>
+                <h3>Wins: 
+                    <br>
+                    <p><span id="wins-text"></span></p>
+                </h3>
+
+                <h3>Losses: 
+                    <br>
+                   <p><span id="losses-text"></span></p>
+                </h3>
+   
             </div>
         </div>
 
         <div class="row row-4"> <!--Crystals box-->
             <div class="col-md-12">
-                <input type="image" img src="assets/images/bluecrystal.jpg" alt="bluecrystal"></input>
-                <input type="image" img src="assets/images/pinkcrystal.png" alt="pinkcrystal"></input>
-                <input type="image" img src="assets/images/greencrystal.jpg" alt="greencrystal"></input>
-                <input type="image" img src="assets/images/purpcrystal.jpg" alt="purpcrystal"></input>
+                <button class="crystal" data-index="0"> <img src="assets/images/bluecrystal.jpg" alt="blue crystal"></button>
+                <button class="crystal" data-index="1"> <img src="assets/images/pinkcrystal.png" alt="pink crystal"></button>
+                <button class="crystal" data-index="2"> <img src="assets/images/greencrystal.jpg" alt="green crystal"></button>
+                <button class="crystal" data-index="3"> <img src="assets/images/purpcrystal.jpg" alt="purple crystal"></button>
             </div>
         </div>
 

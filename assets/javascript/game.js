@@ -7,7 +7,6 @@ Crystal variables will be hidden from user until clicked.
 When user clicks crystal, value will be printed to totalScore or added to total score. 
 If total score is less than randomNumber then user keeps playing. 
 If total score goes above randomNumber then user loses and game resets. 
-
 */
 
 // Creates variable to hold crystal values
@@ -21,6 +20,7 @@ var userScore = 0;
 var targetScore = numGenerator(19, 120);
 
 //console.log(targetScore);
+
 // Create a while loop
 
 while (crystalValues.length < 4) {
@@ -33,7 +33,7 @@ while (crystalValues.length < 4) {
     }
 }
 //console.log(crystalValues);
-//for (var i=0; crystalValues.length < 5; i++)
+
 // Variables to hold wins and losses
 
 var wins = 0;
@@ -42,22 +42,9 @@ var losses = 0;
 function numGenerator(min, max){
     return Math.floor(Math.random()*(max-min + 1)+min);
 }
-// // Variable that logs which crystal user picks
 
-// var userClick = "";
 
-// // Random number generator
-
-//  var randomNumber = [math.floor(math.random() * 100) +1]; 
-
-// // Creates crystal variables with random numbers:
-
-// var blueCrystal = [math.floor(math.random() * 10) +1];
-// var pinkCrystal = [math.floor(math.random() * 20) +1];
-// var greenCrystal = [math.floor(math.random() * 30) +1];
-// var purpleCrystal = [math.floor(math.random() * 40) +1];
-
-// // Creates variables that hold references to where we want them in html.
+// Creates variables that hold references to where we want them in html.
 
     document.getElementById("wins-text").textContent = wins;
     document.getElementById("losses-text").textContent = losses;
@@ -65,9 +52,6 @@ function numGenerator(min, max){
     document.getElementById("random-number").textContent = targetScore;
     document.getElementById("total-score").textContent = userScore;
 
-// Function to start game 
-
-//function startGame();
 
 // Creates on click function for each crystal 
 
@@ -124,22 +108,5 @@ function reset() {
     }, 1500);
 }
 
-// $("#bluecrystal").on("click", function(){
-//     alert("test");
-// })
 
-// $("#pinkcrystal").on("click", function(){
-
-    
-// })
-
-// $("#greencrystal").on("click", function(){
-
-// })
-
-// $("#purpcrystal").on("click", function(){
-    
-// })
-
-//startGame();
 

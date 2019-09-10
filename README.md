@@ -4,8 +4,6 @@ In this game the user will be given a random number that they are trying to reac
 
 <a href="https://amandadovel.github.io/Crystal-Collector/" target="_blank">Link to Game</a>
 
-This is a simple hangman game using 90's cereal mascots as a theme. 
-
 <img src="/assets/images/crystalScreenShot.png" alt="booberry">
 
 ## Getting Started 🏁

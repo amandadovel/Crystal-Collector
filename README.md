@@ -19,10 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With 🔧
 
-* [html] (https://www.w3schools.com/html/) -Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. 
-* [css] (https://www.w3schools.com/css/) - Cascading Style Sheets describes the design of the html layout. 
-* [Javascript] (https://www.javascript.com/) -JavaScript is the programming language of HTML and the Web.
-* [JQuery] (https://www.w3schools.com/jquery/) - A javascript library designed to simplify programming.
+* [html](https://www.w3schools.com/html/) -Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. 
+* [css](https://www.w3schools.com/css/) - Cascading Style Sheets describes the design of the html layout. 
+* [Javascript](https://www.javascript.com/) -JavaScript is the programming language of HTML and the Web.
+* [JQuery](https://www.w3schools.com/jquery/) - A javascript library designed to simplify programming.
 
 ## Author ⌨️
 *** Amanda Dovel *** - [amandadovel](https://github.com/amandadovel)

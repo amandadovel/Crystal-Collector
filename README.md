@@ -4,7 +4,7 @@ In this game the user will be given a random number that they are trying to reac
 
 <a href="https://amandadovel.github.io/Crystal-Collector/" target="_blank">Link to Game</a>
 
-<img src="/assets/images/crystalScreenShot.png" alt="booberry">
+<img src="/assets/images/crystalScreenShot.png" alt="crystalShot">
 
 ## Getting Started 🏁
 
